@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Glow beauty" },
+      { name: "description", content: "A modern, premium website for Glow Beauty Salon, offering online appointment booking and service details." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Glow beauty" },
+      { property: "og:description", content: "A modern, premium website for Glow Beauty Salon, offering online appointment booking and service details." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Glow beauty" },
+      { name: "twitter:description", content: "A modern, premium website for Glow Beauty Salon, offering online appointment booking and service details." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e73f7915-679b-4a07-894d-598167a49c6e/id-preview-98f8decc--043ff538-7f8c-41d1-a610-798a5201e424.lovable.app-1777568240782.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e73f7915-679b-4a07-894d-598167a49c6e/id-preview-98f8decc--043ff538-7f8c-41d1-a610-798a5201e424.lovable.app-1777568240782.png" },
     ],
     links: [
       {
